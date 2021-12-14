@@ -1,2 +1,1 @@
-# README_Generator
-This app will create Professional README after getting user's inputs.
+<h2 align="center">Karan Singh Sodhi is 25 years old</h2>
