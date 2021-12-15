@@ -13,7 +13,7 @@
         <li><a href="#test">Tests</a></li>
         <li><a href="#question">Questions</a></li>
     </ul>
-    <h2 id="install">Installtion</h2>
+    <h2 id="install">Installation</h2>
     <hr>
     <p>Fs Inquirer</p>
     <h2 id="usage">Usage</h2>
