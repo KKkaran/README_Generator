@@ -1,7 +1,7 @@
-<h1 align='center'>Run Buddy</h1>
+<h1 align='center'>Run Buddy 2.0</h1>
     <h2 id="description">Description</h2>
     <hr>
-    <p>This is the desc of the som eproejct. this is hte fdkf fdjfd dfidjf</p>
+    <p>This is the description of the project that I am writing lets see if it works.  </p>
     <h2>Table of Contents</h2>
     <hr>
     <ul>
@@ -13,21 +13,21 @@
         <li><a href="#test">Tests</a></li>
         <li><a href="#question">Questions</a></li>
     </ul>
-    <h2 id="install">Installtion</h2>
+    <h2 id="install">Installation</h2>
     <hr>
-    <p>Fs Inquirer</p>
+    <p>Inquirer</p>
     <h2 id="usage">Usage</h2>
     <hr>
     <p>UofT Bootcamp</p>
     <h2 id="license">License</h2>
     <hr>
-    <p>BSD</p>
+    <p>MIT</p>
     <h2 id="contri">Contributing</h2>
     <hr>
-    <p>None</p>
+    <p>Karan Sodhi</p>
     <h2 id="test">Tests</h2>
     <hr>
-    <p>None</p>
+    <p>Unit testing</p>
     <h2 id="question">Questions</h2>
     <hr>
     <p>Incase of questions, Find me on: </p>
