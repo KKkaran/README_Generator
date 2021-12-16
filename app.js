@@ -2,6 +2,8 @@
 const fs = require("fs")
 const inquirer = require("inquirer")
 const generateReadme = require("./readmeTemplate")
+
+
 //this function writes content to the file
 const writeReadMe = (fileContent)=>{
     fs.writeFile("./README.md",fileContent,(err,done)=>{
@@ -59,7 +61,7 @@ const ask4Inputs = ()=> {
                 type: "list",
                 name: "license",
                 message: "Choose the type of License: (Required)",
-                choices : ["MIT","Apache","BSD","ILC"],
+                choices : ["MIT","Apache2.0","IPL1.0","ISC"],
                 
                 // validate: desc => {
                 //     if (desc) {
@@ -127,6 +129,8 @@ const ask4Inputs = ()=> {
 
 ])
 }
+
+//all the promises go below
 ask4Inputs()
     .then(generateReadme)//function gets the input and manipulates the data in template and sends back to tbe written to the file
     .then(writeReadMe)
