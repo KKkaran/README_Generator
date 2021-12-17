@@ -6,7 +6,7 @@ module.exports =(fileObject) =>{
     else if(fileObject.license === "IPL1.0")  color = "blue"
     else if(fileObject.license === "ISC")  color = "blue"
 
-    return `<h1 align='center'>${fileObject.title}</h1>
+    return `<h1 align='center'>${fileObject.title}<span><img src="icons/project.png" height="25" width="25"/></span></h1>
     <img src="https://img.shields.io/badge/License-${fileObject.license}-${color}.svg"/>
     <h2 id="description">Description</h2>
     <p><img src="icons/search.png" height="18" width="20"/>${fileObject.description}</p>

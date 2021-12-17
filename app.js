@@ -2,6 +2,7 @@
 const fs = require("fs")
 const inquirer = require("inquirer")
 const generateReadme = require("./readmeTemplate")
+const email_validator = require("email-validator")
 
 
 //this function writes content to the file
@@ -104,14 +105,18 @@ const ask4Inputs = ()=> {
                 type: "input",
                 name: "email",
                 message: "Please provide your email for reaching out: (Required)",
-                validate: email => {
-                    if (email) {
+                validate: function (email) {
+  
+                    valid = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)
+        
+                    if (valid) {
+                      //console.log("Great job");
                         return true;
                     } else {
-                        console.log('Please give your email.');
+                        console.log(".  Please enter a valid email")
                         return false;
-                        }
-                    }
+                    }  
+                }
             },
             {
                 type: "input",
