@@ -1,3 +1,10 @@
+# Readme Generator: In this app, we get user inputs using Inquirer and create a READE.md for the user.
+# LINK for Video : https://drive.google.com/file/d/1J1uMwFJr-G-WAnVk8dLi98UpwlwhWBvs/view?usp=sharing
+# The sample readme file down is also created by the app itself.
+
+
+
+<br>
 <h1 align='center'>Run Buddy 2.0<span><img src="icons/project.png" height="25" width="25"/></span></h1>
     <img src="https://img.shields.io/badge/License-Apache2.0-red.svg"/>
     <h2 id="description">Description</h2>
